@@ -9,7 +9,7 @@ const DidYouKnow = () => {
                 <h2 className='font-lulo font-bold 992:text-4xl md:text-3xl text-2xl !leading-120 text-white uppercase'>Did you know?</h2>
                 <p className='font-bold text-lg sm:text-xl md:text-2xl font-proxima-bold leading-122 mt-3.5 mb-10 sm:mb-12 md:mb-14 pb-1 text-white'>Salespeople suffer, instead of selling</p>
             </div>
-            <div className='max-w-[1140px] mx-auto px-4 flex items-center justify-center '>
+            <div className='max-w-[1140px] mx-auto px-4 flex items-center relative justify-center '>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[25px]'>
                     {KnowList.map((obj, index) => {
                         return (

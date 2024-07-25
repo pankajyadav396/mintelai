@@ -46,6 +46,7 @@ export default {
       screens: {
         "992": "992px",
         "400": "400px",
+        "430": "430px",
         "576": "576px"
       },
       borderRadius: {

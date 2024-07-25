@@ -6,7 +6,7 @@ import { brandsList } from './common/Helper';
 const Brands = () => {
     return (
         <div className='px-4'>
-            <div className='bg-purple-green p-1 mx-auto xl:mt-[108.59px] lg:mt-24 md:mt-20 sm:mt-16 mt-14 shadow-green-large max-w-[1340px] rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32'>
+            <div className='bg-purple-green p-1 mx-auto xl:mt-[100px] lg:mt-24 md:mt-20 sm:mt-16 mt-14 shadow-green-large max-w-[1340px] rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32'>
                 <div className='max-w-[1340px] mx-auto bg-white rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32 py-12 md:py-16 lg:py-20 xl:py-[106px]'>
                     <h2 className='992:text-4xl px-3 md:text-3xl text-2xl text-center mx-auto text-black font-lulo !leading-120'>Brands That Trust Us</h2>
                     <div className='max-w-[1172px] px-4 mx-auto brands mt-10'>

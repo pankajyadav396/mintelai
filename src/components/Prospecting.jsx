@@ -5,7 +5,7 @@ import arrow from '../assets/images/svg/arrow-green.svg'
 const Prospecting = () => {
     return (
         <div className='px-4'>
-            <div className='bg-purple-green p-1 mx-auto xl:mt-[120px] h-[652px] lg:mt-24 md:mt-20 sm:mt-16 mt-14 shadow-green-large max-w-[1340px] rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32'>
+            <div className='bg-purple-green p-1 mx-auto xl:mt-[120px] lg:mt-24 md:mt-20 sm:mt-16 mt-14 shadow-green-large max-w-[1340px] rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32'>
                 <div className='max-w-[1340px] mx-auto bg-white rounded-xl sm:rounded-2xl md:rounded-3xl lg:rounded-32 py-12 md:py-16 lg:py-20'>
                     <h2 className='992:text-4xl md:text-3xl text-2xl text-center mx-auto text-black font-lulo !leading-120 max-w-[487px]'>Prospecting on auto-pilot</h2>
                     <p className='text-lg sm:text-xl md:text-2xl font-bold font-proxima-bold mb-14 pb-1 text-black mt-3.5 !leading-122 text-center mx-auto'>Find buyers while you sleep</p>

@@ -11,7 +11,7 @@ const Compatible = () => {
                     {compatibleList.map((obj, index) => {
                         return (
                             <div key={index} className='max-sm:max-w-[300px] max-sm:mx-auto'>
-                                <img src={obj.img} alt="img links" className='max-sm:scale-[80%] sm:scale-90 md:scale-100' />
+                                <img src={obj.img} alt="img links" className={`${index === 0 ? "max-md:max-w-[141px] max-sm:max-w-[128px]" : index === 1 ? "max-md:max-w-[108px] max-sm:max-w-[97.7px]" : index === 2 ? "max-md:max-w-[210px] max-sm:max-w-[190px]" : ""} `} />
                             </div>
                         )
                     })}

@@ -10,8 +10,8 @@ const Footer = () => {
             <div className='max-w-[1172px] pb-14 mb-1 px-4 mx-auto'>
                 <div className="flex flex-col 992:flex-row items-center justify-center 992:justify-between max-992:gap-8">
                     <div className="992:w-[447px] w-full">
-                        <h2 className='font-lulo font-bold max-992:mx-auto max-992:text-center 992:text-4xl md:text-3xl text-2xl max-w-[321px] 992:mb-8 mb-5 md:mb-6 !leading-120 text-white uppercase'>Stay in the Know</h2>
-                        <p className='font-semibold text-2xl max-992:text-center font-proxima-semibold leading-122 mt-3.5 text-white mb-4'>Join the waiting list</p>
+                        <h2 className='font-lulo font-bold max-992:mx-auto max-992:text-center 992:text-4xl md:text-3xl text-2xl max-w-[321px] 992:mb-8 mb-5 md:mb-6 !leading-148 text-white uppercase'>Stay in the Know</h2>
+                        <p className='font-semibold text-2xl max-992:text-center font-proxima-semibold !leading-122 mt-3.5 text-white mb-4'>Join the waiting list</p>
                         <form className='flex max-w-[446px] max-992:mx-auto justify-between rounded-4 relative z-[3] pl-4 border h-[52px] border-white border-opacity-25'>
                             <input type="text" placeholder='Enter your business email' required className='bg-transparent focus:outline-none text-white font-normal font-proxima-normal w-[60%] placeholder:text-white placeholder:font-proxima-normal placeholder:text-base' />
                             <button className='font-normal border border-white border-opacity-25 border-l-0  m-[-1px] flex items-center justify-cente font-proxima-normal rounded-4 text-nowrap text-white py-2.5 px-10 sm:p-[16.5px_47px] bg-light-green'>Sign Up</button>
