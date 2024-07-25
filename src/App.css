@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "proximanova-bold";
+  src: url(./assets/fonts/Fontspring-DEMO-proximanova-bold.otf);
+}
+
+@font-face {
+  font-family: "proximanova-regular";
+  src: url(./assets/fonts/Fontspring-DEMO-proximanova-regular.otf);
+}
+
+@font-face {
+  font-family: "proximanova-semibold";
+  src: url(./assets/fonts/Fontspring-DEMO-proximanova-semibold.otf);
+}
+
+@font-face {
+  font-family: "LuloCleanW01-OneBold";
+  src: url(./assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf);
+}
+
+.brands.swiper-wrapper {
+  height: 167px !important;
+}
+
+.mentilize .swiper-wrapper {
+  height: 70px;
+}
+
+.self-justify {
+  align-self: justify;
+}
+
+@media (max-width:640px) {
+  .brands .swiper-wrapper {
+    height: 120px;
+  }
+}
