@@ -1,5 +1,6 @@
 import './App.css'
 import Brands from './components/Brands'
+import BackToTop from './components/common/BackToTop'
 import Compatible from './components/Compatible'
 import DidYouKnow from './components/DidYouKnow'
 import Footer from './components/Footer'
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <div className='bg-black overflow-hidden'>
+        <BackToTop />
         <Header />
         <DidYouKnow />
         <Prospecting />

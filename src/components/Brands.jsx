@@ -40,8 +40,8 @@ const Brands = () => {
                         >
                             {brandsList.map((obj, index) => (
                                 <SwiperSlide key={index}>
-                                    <div className='shadow-small-black rounded-md border border-black border-opacity-20 min-h-[120px] sm:min-h-[167px] flex justify-center items-center'>
-                                        <img src={obj.img} alt="img brand" className={` ${index === 1 || 4 ? "max-w-[178px]" : ""} max-576:scale-75 576:scale-90 md:scale-100`} />
+                                    <div className='shadow-small-black  group duration-300 rounded-md border border-black border-opacity-20 min-h-[120px] sm:min-h-[167px] flex justify-center items-center'>
+                                        <img src={obj.img} alt="img brand" className={` ${index === 1 || 4 ? "max-w-[178px]" : ""} max-576:scale-75 576:scale-90 md:scale-100 group-hover:scale-110 duration-300`} />
                                     </div>
                                 </SwiperSlide>
                             ))}

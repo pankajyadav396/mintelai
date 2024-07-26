@@ -13,7 +13,7 @@ const DidYouKnow = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[25px]'>
                     {KnowList.map((obj, index) => {
                         return (
-                            <div key={index} className={` ${index === 1 ? "lg:min-h-[296px] lg:bg-dark-green p-0 shadow-xs-green" : ""} bg-light-green p-[1px] my-auto lg:hover:h-[296px] max-md:max-w-[450px] mx-auto max-lg:min-h-[260px] hover:duration-300 duration-300 group lg:h-[239px] bg-opacity-20 rounded-xl shadow-small-green`} >
+                            <div key={index} className={` ${index === 1 ? "lg:min-h-[296px] lg:bg-dark-green p-0 shadow-xs-green" : index === 2 ? "max-lg:relative max-sm:left-0 left-[50%] translate-x-0" : ""} bg-light-green p-[1px] my-auto lg:hover:h-[296px] max-md:max-w-[450px] mx-auto max-lg:min-h-[260px] hover:duration-300 duration-300 group lg:h-[239px] bg-opacity-20 rounded-xl shadow-small-green`} >
                                 <div className={` ${index === 1 ? "lg:bg-dark-green lg:py-8 bg-black1 lg:shadow-grey-green" : "bg-black1"} group-hover:shadow-grey-green group-hover:bg-dark-green duration-300 max-lg:min-h-[260px] h-full w-full rounded-xl gap-5 xl:py-8 py-4 lg:px-10 px-4 flex flex-col items-center justify-center`}>
                                     <span className={`${index === 1 ? "size-16 lg:size-[72px]" : ""} size-16 duration-300`}>{obj.icon}</span>
                                     <h3 className={`${index == 1 ? "lg:text-xxl text-2xl" : ""} md:text-2xl text-xl lg:group-hover:text-xxl duration-300 font-proxima-semibold text-center font-semibold text-white`}>{obj.title}</h3>
